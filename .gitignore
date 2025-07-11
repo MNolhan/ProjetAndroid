@@ -1,15 +1,54 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+# Fichiers système
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+Thumbs.db
+
+# Fichiers générés par Android Studio / IntelliJ
+*.iml
+.idea/
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+
+# Fichiers générés par Gradle
+*.log
 local.properties
+.gradle/
+build/
+
+# Fichiers de cache
+.cxx/
+*.apk
+*.ap_
+*.dex
+
+# Fichiers temporaires
+*.class
+*.swp
+*.swo
+*.tmp
+
+# Configuration utilisateur
+*.keystore
+*.jks
+
+# Fichiers de test / couverture
+*.ec
+coverage/
+
+# Fichiers de sortie
+output.json
+
+# Fichiers spécifiques à Firebase
+.firebase/
+
+# Fichiers de crashlytics
+crashlytics-build.properties
+
+# Fichiers ndk / cmake (si tu en utilises)
+cmake-build-debug/
+obj/
+
+# Configuration locale
+local.properties
+
