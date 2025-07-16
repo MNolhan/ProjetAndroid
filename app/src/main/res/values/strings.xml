@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">ProjetAndroid</string>
+    <string name="valider">Valider</string>
+    <string name="entrez_votre_username_ici">Entrez votre username ici</string>
+    <string name="bienvenue">Bienvenue !</string>
+    <string name="entrez_votre_nom">Entrez votre Nom</string>
+    <string name="retour">Retour</string>
+    <string name="mode_sombre">Mode Sombre</string>
+    <string name="effacer_pr_f_rence">Effacer Préférence</string>
+    <string name="effacer_preference" />
+    <string name="effacer_preferences">Effacer_preferences</string>
+    <string name="effacer_les_preferences">Effacer les preferences</string>
+    <string name="mode_claire">Mode Claire</string>
+    <string name="changer_de_mode">Changer de Mode</string>
+    <string name="commencer_le_quizz">Commencer le Quizz</string>
+    <string name="retour_l_accueil">Retour à l\'accueil</string>
+    <string name="vous_n_avez_pas_de_meilleur_score">Vous n\'avez pas de meilleur Score !</string>
 </resources>
