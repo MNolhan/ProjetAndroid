@@ -48,13 +48,4 @@ public class Helper {
         Collections.shuffle(questions);
         return questions.subList(0, Math.min(count, questions.size()));
     }
-
-    public static String recapBonnesReponses(List<Question> questions) {
-        StringBuilder sb = new StringBuilder();
-        for (Question q : questions) {
-            sb.append("❓ ").append(q.question).append("\n");
-            sb.append("✅ ").append(q.getBonneReponse()).append("\n\n");
-        }
-        return sb.toString();
-    }
 }
